@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1280px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+input {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  font-size: 1.5rem;
+}
+
+button {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 10px 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#campo-mensagem {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
